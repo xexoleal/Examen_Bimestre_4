@@ -49,9 +49,9 @@ def ejercicio1():
         # Renderizamos la plantilla nuevamente para mostrar resultados
         return render_template('ejercicio1.html',
                                resultado_nombre=nombre,
-                               total_sin_descuento=f"{total_sin_descuento:,.0f}",
-                               descuento_monto=f"{descuento_monto:,.1f}",
-                               total_a_pagar=f"{total_a_pagar:,.1f}",
+                               total_sin_descuento=f"{total_sin_descuento:.0f}",
+                               descuento_monto=f"{descuento_monto:.1f}",
+                               total_a_pagar=f"{total_a_pagar:.1f}",
 
                                #Enviamos de vuelta los valores ingresados para que no se borren
                                nombre=nombre,
